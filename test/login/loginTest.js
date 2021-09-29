@@ -40,7 +40,7 @@
 				await Login_Page.setUserName(data.devServer_credencials.email);
 				await Login_Page.setPassword(data.devServer_credencials.password);
 			   }
-			   await Login_Page.clickSubmitButton(1);
+			   await Login_Page.clickSubmitButton();
 			try {
 				await expect(Login_Page.successfulLogin).toBeDisplayed();
 				
