@@ -1,0 +1,66 @@
+{
+  "uid" : "e03be0f4b7a73901",
+  "name" : "Test1: User should not be able to login with invalid data",
+  "fullName" : "Test Sign form with valid and invalid data.Test1: User should not be able to login with invalid data",
+  "historyId" : "65ce49daf187d1d4460014407a7d192b",
+  "time" : {
+    "start" : 1630991724636,
+    "stop" : 1630991732191,
+    "duration" : 7555
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1: User should not be able to login with invalid data"
+  }, {
+    "name" : "package",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95057aa3863bfc82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630991567945,
+        "stop" : 1630991575529,
+        "duration" : 7584
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e03be0f4b7a73901.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test1: User should not be able to login with invalid data",
+    "uid" : "e03be0f4b7a73901",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630991724636,
+      "stop" : 1630991732191,
+      "duration" : 7555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "Test2: user should  be able to login with valid data",
+    "uid" : "cd8880aa062c4c1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630991732193,
+      "stop" : 1630991737670,
+      "duration" : 5477
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  } ]
+}

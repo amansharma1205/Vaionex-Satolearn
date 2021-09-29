@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@id='client-snackbar']\"}\n  (Session info: chrome=92.0.4515.159)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E42A33+2501171]\n\tOrdinal0 [0x00DDD1C1+2085313]\n\tOrdinal0 [0x00CE1FA8+1056680]\n\tOrdinal0 [0x00D0C78B+1230731]\n\tOrdinal0 [0x00D364A2+1402018]\n\tOrdinal0 [0x00D2568A+1332874]\n\tOrdinal0 [0x00D348BC+1394876]\n\tOrdinal0 [0x00D2551B+1332507]\n\tOrdinal0 [0x00D01D74+1187188]\n\tOrdinal0 [0x00D02BD9+1190873]\n\tGetHandleVerifier [0x00FBEFE6+1504438]\n\tGetHandleVerifier [0x0106DDA5+2220661]\n\tGetHandleVerifier [0x00EC5589+481881]\n\tGetHandleVerifier [0x00EC4639+477961]\n\tOrdinal0 [0x00DE28BD+2107581]\n\tOrdinal0 [0x00DE6728+2123560]\n\tOrdinal0 [0x00DE6862+2123874]\n\tOrdinal0 [0x00DEFA81+2161281]\n\tBaseThreadInitThunk [0x75D2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77387A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77387A4E+238]\n"
+}

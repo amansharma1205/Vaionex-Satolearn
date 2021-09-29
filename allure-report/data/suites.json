@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Sign form with valid and invalid data",
+    "children" : [ {
+      "name" : "Test1: User should not be able to login with invalid data",
+      "uid" : "e03be0f4b7a73901",
+      "parentUid" : "8b65158268e2099d4be3b349c249a4e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630991724636,
+        "stop" : 1630991732191,
+        "duration" : 7555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "Test2: user should  be able to login with valid data",
+      "uid" : "cd8880aa062c4c1d",
+      "parentUid" : "8b65158268e2099d4be3b349c249a4e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630991732193,
+        "stop" : 1630991737670,
+        "duration" : 5477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "8b65158268e2099d4be3b349c249a4e3"
+  } ]
+}
