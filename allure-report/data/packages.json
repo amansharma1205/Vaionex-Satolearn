@@ -5,7 +5,7 @@
     "name" : "Test Sign form with valid and invalid data",
     "children" : [ {
       "name" : "Test1: User should not be able to login with invalid data",
-      "uid" : "e03be0f4b7a73901",
+      "uid" : "c3cff85372586fac",
       "parentUid" : "971592a3683492cb3311b412399a1e53",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ "chrome-92.0.4515.159" ]
     }, {
       "name" : "Test2: user should  be able to login with valid data",
-      "uid" : "cd8880aa062c4c1d",
+      "uid" : "fa2e3984d9d33036",
       "parentUid" : "971592a3683492cb3311b412399a1e53",
       "status" : "passed",
       "time" : {

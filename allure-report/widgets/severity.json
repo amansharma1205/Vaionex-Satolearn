@@ -1,20 +1,20 @@
 [ {
-  "uid" : "e03be0f4b7a73901",
-  "name" : "Test1: User should not be able to login with invalid data",
-  "time" : {
-    "start" : 1630991724636,
-    "stop" : 1630991732191,
-    "duration" : 7555
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd8880aa062c4c1d",
+  "uid" : "fa2e3984d9d33036",
   "name" : "Test2: user should  be able to login with valid data",
   "time" : {
     "start" : 1630991732193,
     "stop" : 1630991737670,
     "duration" : 5477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3cff85372586fac",
+  "name" : "Test1: User should not be able to login with invalid data",
+  "time" : {
+    "start" : 1630991724636,
+    "stop" : 1630991732191,
+    "duration" : 7555
   },
   "status" : "passed",
   "severity" : "normal"

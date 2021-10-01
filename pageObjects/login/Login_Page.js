@@ -1,21 +1,25 @@
-//var assert = require('assert');
+var assert = require('assert');
 import { Console } from 'console';
 import { stagingServer_credentials, devServer_credencials } from '../../resources/login/login_Resource.js';
 	
 class Login_Page {
+
+	///##Login
 	    get loginAccountText() { return $("//div[@class='kt-login__title']/h3");}
 	    get userName() { return $("[name='email']");} 
 		get password() { return $("[name='password']");}
 		get submitButton() { return $("//button[@id='kt_login_signin_submit']");}
-
 		get successfulLogin() {return $("//span[@class='kt-header__topbar-username kt-hidden-mobile']");}
 		get unsuccessfulLogin() {return $("//span[@id='client-snackbar']");}
-		
 		get quickPanel() {return $("//button[@class='MuiButtonBase-root MuiIconButton-root']");}
 		
-
+    ///##Forgot Password 
+		get forgotPasswordLink(){return $("//a[@class='kt-link kt-login__link-forgot']");}
+		get forgotPasswordText(){return $("//div[@class='kt-login__title']/h3");}
+		get forgotPasswordTextbox() { return $("[name='email']");} 
+		get forgotPasswordBackButton(){return $("//button[@class='btn btn-secondary btn-elevate kt-login__btn-secondary']")}
+		get forgotPasswordSubmitButton(){return $("//button[@class='btn btn-primary btn-elevate kt-login__btn-primary']")}
 		
-
 		setUserName(userName) {
 			this.userName.clearValue();
 			return this.userName.setValue(userName);
@@ -69,10 +73,29 @@ class Login_Page {
 
 				} catch(err) {
 					console.log("Exception: " + err);
-					//assert.fail();
+					assert.fail();
 					
 				}
 
+		}
+
+		forgotPasswordVerification(email)
+		{
+		try {
+		  console.log("inside ForgotPasword")
+		  //browser.url('/login');
+          this.forgotPasswordLink.click();
+		  this.forgotPasswordText.waitForExist(5000);
+		  this.forgotPasswordBackButton.waitForExist(5000);
+		  this.forgotPasswordTextbox.setValue(email);
+		  this.forgotPasswordSubmitButton.click();
+		}
+		catch(err) 
+		   {
+				console.log("Exception: " + err);
+				assert.fail();
+				
+			}
 		}
 	}
 

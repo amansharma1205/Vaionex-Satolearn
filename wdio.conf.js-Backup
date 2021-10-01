@@ -9,7 +9,8 @@ if(process.env.SERVER === 'prod') {
 
     var timeout = process.env.DEBUG ? 99999999 : 90000;
     const allure = require('allure-commandline');
-exports.config = {
+
+export const config = {
     //
     // ====================
     // Runner Configuration

@@ -24,12 +24,11 @@
 				console.log("Exception: " + err);
 				assert.fail();
 				}
-				console.log("First End")
+				
 		});
 
 		
 		it('Test2: user should  be able to login with valid data',  async() => {
-			console.log("2nd Start"); 
 			await Home_Page.loginLink.click();   
 			await Login_Page.userName.clearValue();   
 			await Login_Page.password.clearValue();              
@@ -48,5 +47,12 @@
 				console.log("Exception: " + err);
 				assert.fail();
 			}
+		});
+
+
+		it('3 Verfy ForgotPassword Screen',async()=>{
+			
+			 Login_Page.forgotPasswordVerification('aman@yahoo.com');
+
 		});
 	});
