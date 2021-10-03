@@ -50,9 +50,20 @@
 		});
 
 
-		it('3 Verfy ForgotPassword Screen',async()=>{
+		it('Test3: Verfy ForgotPassword Screen',async()=>{
 			
-			 Login_Page.forgotPasswordVerification('aman@yahoo.com');
+			 await browser.url('/auth/login'); 
+			 Login_Page.forgotPasswordVerification('aman12@yopmail.com');
+			 
+			try {
+				await browser.pause(2000);
+				await Login_Page.forgotPasswordSubmitButton.click()
+				await expect(browser).toHaveUrl('https://satolearn.com/auth/login')
+							
+			} catch (err) {
+				console.log("Exception: " + err);
+				assert.fail();
+			}
 
 		});
 	});

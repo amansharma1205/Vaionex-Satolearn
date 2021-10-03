@@ -44,52 +44,17 @@ class Login_Page {
 			}
 		 }
 
-    loginToApplication()
-		{
-		  
-		   browser.url('/login')
-		   this.userName.waitForExist();
-		   this.password.waitForExist();
-		   this.userName.clear();
-		   this.password.clear();
-		   if(process.env.SERVER=='prod'){
-		   this.userName.setValue(stagingServer_credentials.email);
-	       this.password.setValue(stagingServer_credentials.password);	
-		   }else {
-	       this.userName.setValue(devServer_credencials.email);
-	       this.password.setValue(devServer_credencials.password);
-	       }
-	       this.password.waitForExist();
-	       this.submitButton.click();
-
-	     try {
-					this.benefitLink.waitForExist();
-					expect(browser.getUrl()).to.have.string("secure/hirin")
-					this.benefitLink.click();
-					this.benefitsTitle.waitForExist();
-					expect(browser.getUrl()).to.have.string("/secure/benefits");
-					//this.loadingSpinner.waitForExist(null,true);
-					browser.url('/secure/benefits/plan/5d78cf0d4e2f2e444d8b460b#policy');
-
-				} catch(err) {
-					console.log("Exception: " + err);
-					assert.fail();
-					
-				}
-
-		}
-
-		forgotPasswordVerification(email)
+    forgotPasswordVerification(email)
 		{
 		try {
 		  console.log("inside ForgotPasword")
-		  //browser.url('/login');
-          this.forgotPasswordLink.click();
+		  this.forgotPasswordLink.click();
 		  this.forgotPasswordText.waitForExist(5000);
+		  expect(this.forgotPasswordText).toHaveText('Forgotten Password?')
 		  this.forgotPasswordBackButton.waitForExist(5000);
 		  this.forgotPasswordTextbox.setValue(email);
-		  this.forgotPasswordSubmitButton.click();
-		}
+		  
+		}//
 		catch(err) 
 		   {
 				console.log("Exception: " + err);
