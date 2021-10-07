@@ -5,7 +5,7 @@
 	import Login_Page from '../../pageObjects/login/Login_Page'
 
 	
-	describe('Test Sign form with valid and invalid data', async() =>{
+	describe('Test Sign form with valid and invalid data', () =>{
 
 		beforeEach (function (){
 	    browser.url('/')
@@ -14,16 +14,16 @@
 		 it('Test1: User should not be able to login with invalid data',  async() => {
 			await Home_Page.loginLink.click();
 			Login_Page.submitSignInForm('abc@gmail.com', 'Pass12345');
-			await browser.pause(2000);
+			await browser.pause(1000);
 			await Login_Page.clickSubmitButton();
-			await Login_Page.unsuccessfulLogin.waitForDisplayed(10000);
+			await Login_Page.unsuccessfulLogin.waitForDisplayed();
 			try {
-				expect(Login_Page.unsuccessfulLogin).toHaveText("There is no user record corresponding to this identifier. The user may have been deleted.");
-				
+				await expect(await Login_Page.unsuccessfulLogin).toHaveText("There is no user record corresponding to this identifier. The user may have been deleted.");
+			
 			} catch(err) {
 				console.log("Exception: " + err);
 				assert.fail();
-				}
+			}
 				
 		});
 

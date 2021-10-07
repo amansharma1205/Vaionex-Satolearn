@@ -1,7 +1,6 @@
 var assert = require('assert');
-import { Console } from 'console';
-import { stagingServer_credentials, devServer_credencials } from '../../resources/login/login_Resource.js';
-	
+import data from '../../resources/login/login_Resource.js';
+import Home_Page from '../home/Home_Page.js';	
 class Login_Page {
 
 	///##Login
@@ -20,17 +19,31 @@ class Login_Page {
 		get forgotPasswordBackButton(){return $("//button[@class='btn btn-secondary btn-elevate kt-login__btn-secondary']")}
 		get forgotPasswordSubmitButton(){return $("//button[@class='btn btn-primary btn-elevate kt-login__btn-primary']")}
 		
+		 LoginToSato(){
+		   
+		   console.log("Inside Login Function ");	
+		   Home_Page.loginLink.click();
+		   this.setUserName(data.devServer_credencials.email);
+		   this.setPassword(data.devServer_credencials.password);
+		   browser.pause(3000);
+		   return true;
+			
+		 }
+     
 		setUserName(userName) {
+			this.userName.waitForDisplayed(); 
 			this.userName.clearValue();
 			return this.userName.setValue(userName);
 		}
 
 		setPassword(password) {
+			this.password.waitForDisplayed();
 			this.password.clearValue();
 			return this.password.setValue(password);
 		}
 
 		clickSubmitButton() {
+			expect(this.submitButton).toBeDisplayed();
 			return this.submitButton.click();
 		}
 
@@ -62,6 +75,19 @@ class Login_Page {
 				
 			}
 		}
+
+		waitforPageload()
+		{
+			browser.waitUntil(
+				() => browser.execute(() => document.readyState === 'complete')),
+				{
+				  timeout: 60 * 1000, // 60 seconds
+				  timeoutMsg: 'Message on failure'
+				}
+			  console.log("Executing WaitforPageLoad")
+			  browser.pause(2000);
+		}
+		
 	}
 
 export default new Login_Page()

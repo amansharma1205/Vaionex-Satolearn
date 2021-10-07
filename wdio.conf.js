@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/register/*.js'
+        './test/quickPanel/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -68,10 +68,10 @@ exports.config = {
         maxInstances: 1,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true,
-        'goog:chromeOptions': { 
-            args: ["--headless", "--disable-gpu","--window-size=1440,735"]
-       }
+        acceptInsecureCerts: true
+       // 'goog:chromeOptions': { 
+       //     args: ["--headless", "--disable-gpu","--window-size=1440,735"]
+       //}
         
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -253,10 +253,10 @@ exports.config = {
      * Function to be executed after a test (in Mocha/Jasmine).
      */
     afterTest: function(test, context, { error, result, duration, passed, retries }) {
-        //if (error) {
-            console.log("**************************************");
+        if (error) {
+            
         browser.takeScreenshot();
-       // }
+       }
     },
 
 
