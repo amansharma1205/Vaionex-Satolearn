@@ -2,30 +2,82 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Test1: User should not be able to login with invalid data",
-    "uid" : "c3cff85372586fac",
+    "name" : "Test1: Verify HomePage Links",
+    "uid" : "6feb4b4ed4b95bb4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1630991724636,
-      "stop" : 1630991732191,
-      "duration" : 7555
+      "start" : 1633627412794,
+      "stop" : 1633627419153,
+      "duration" : 6359
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-92.0.4515.159" ]
+    "parameters" : [ "chrome-94.0.4606.71" ]
+  }, {
+    "name" : "Test1: User should not be able to login with invalid data",
+    "uid" : "b0dba523a1dda0cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633627423803,
+      "stop" : 1633627429960,
+      "duration" : 6157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.71" ]
   }, {
     "name" : "Test2: user should  be able to login with valid data",
-    "uid" : "fa2e3984d9d33036",
+    "uid" : "b1b278999bebce37",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1630991732193,
-      "stop" : 1630991737670,
-      "duration" : 5477
+      "start" : 1633627429961,
+      "stop" : 1633627434476,
+      "duration" : 4515
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-92.0.4515.159" ]
+    "parameters" : [ "chrome-94.0.4606.71" ]
+  }, {
+    "name" : "Test3: Verfy ForgotPassword Screen",
+    "uid" : "a09a3d4f851af11b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633627434476,
+      "stop" : 1633627439300,
+      "duration" : 4824
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.71" ]
+  }, {
+    "name" : "Test 1:- Verify Quick Panle Screen",
+    "uid" : "1fcc4849e11cab92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633627444155,
+      "stop" : 1633627453032,
+      "duration" : 8877
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.71" ]
+  }, {
+    "name" : "Test 1:- Verify User register with valid data",
+    "uid" : "1307fdc8327d1ba7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633627457804,
+      "stop" : 1633627465147,
+      "duration" : 7343
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.71" ]
   } ]
 }

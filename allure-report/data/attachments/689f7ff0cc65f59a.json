@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//button[@id='kt_login_signin_submit']"
-}

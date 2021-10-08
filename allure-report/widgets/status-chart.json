@@ -1,20 +1,60 @@
 [ {
-  "uid" : "c3cff85372586fac",
-  "name" : "Test1: User should not be able to login with invalid data",
+  "uid" : "a09a3d4f851af11b",
+  "name" : "Test3: Verfy ForgotPassword Screen",
   "time" : {
-    "start" : 1630991724636,
-    "stop" : 1630991732191,
-    "duration" : 7555
+    "start" : 1633627434476,
+    "stop" : 1633627439300,
+    "duration" : 4824
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fa2e3984d9d33036",
+  "uid" : "6feb4b4ed4b95bb4",
+  "name" : "Test1: Verify HomePage Links",
+  "time" : {
+    "start" : 1633627412794,
+    "stop" : 1633627419153,
+    "duration" : 6359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1307fdc8327d1ba7",
+  "name" : "Test 1:- Verify User register with valid data",
+  "time" : {
+    "start" : 1633627457804,
+    "stop" : 1633627465147,
+    "duration" : 7343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1b278999bebce37",
   "name" : "Test2: user should  be able to login with valid data",
   "time" : {
-    "start" : 1630991732193,
-    "stop" : 1630991737670,
-    "duration" : 5477
+    "start" : 1633627429961,
+    "stop" : 1633627434476,
+    "duration" : 4515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fcc4849e11cab92",
+  "name" : "Test 1:- Verify Quick Panle Screen",
+  "time" : {
+    "start" : 1633627444155,
+    "stop" : 1633627453032,
+    "duration" : 8877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0dba523a1dda0cc",
+  "name" : "Test1: User should not be able to login with invalid data",
+  "time" : {
+    "start" : 1633627423803,
+    "stop" : 1633627429960,
+    "duration" : 6157
   },
   "status" : "passed",
   "severity" : "normal"

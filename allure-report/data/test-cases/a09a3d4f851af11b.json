@@ -1,12 +1,12 @@
 {
-  "uid" : "c3cff85372586fac",
-  "name" : "Test1: User should not be able to login with invalid data",
-  "fullName" : "Test Sign form with valid and invalid data.Test1: User should not be able to login with invalid data",
-  "historyId" : "65ce49daf187d1d4460014407a7d192b",
+  "uid" : "a09a3d4f851af11b",
+  "name" : "Test3: Verfy ForgotPassword Screen",
+  "fullName" : "Test Sign form with valid and invalid data.Test3: Verfy ForgotPassword Screen",
+  "historyId" : "6d5962a94b6083c43570129b179bec1e",
   "time" : {
-    "start" : 1630991724636,
-    "stop" : 1630991732191,
-    "duration" : 7555
+    "start" : 1633627434476,
+    "stop" : 1633627439300,
+    "duration" : 4824
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Test Sign form with valid and invalid data"
@@ -32,7 +32,7 @@
     "value" : "Test Sign form with valid and invalid data"
   }, {
     "name" : "testMethod",
-    "value" : "Test1: User should not be able to login with invalid data"
+    "value" : "Test3: Verfy ForgotPassword Screen"
   }, {
     "name" : "package",
     "value" : "Test Sign form with valid and invalid data"
@@ -42,25 +42,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.159"
+    "value" : "chrome-94.0.4606.71"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e38cfdfa04033969",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630991567945,
-        "stop" : 1630991575529,
-        "duration" : 7584
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c3cff85372586fac.json",
-  "parameterValues" : [ "chrome-92.0.4515.159" ]
+  "source" : "a09a3d4f851af11b.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
 }

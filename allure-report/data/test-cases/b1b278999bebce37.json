@@ -1,12 +1,12 @@
 {
-  "uid" : "fa2e3984d9d33036",
+  "uid" : "b1b278999bebce37",
   "name" : "Test2: user should  be able to login with valid data",
   "fullName" : "Test Sign form with valid and invalid data.Test2: user should  be able to login with valid data",
-  "historyId" : "8eaa3fc811ae81c57554b1c3b6ea1ffd",
+  "historyId" : "ef2dc745ea0b7c1f4c5ad733621e2709",
   "time" : {
-    "start" : 1630991732193,
-    "stop" : 1630991737670,
-    "duration" : 5477
+    "start" : 1633627429961,
+    "stop" : 1633627434476,
+    "duration" : 4515
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -14,22 +14,6 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
-  "testStage" : {
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "782fb07cd046b080",
-      "name" : "Screenshot",
-      "source" : "782fb07cd046b080.png",
-      "type" : "image/png",
-      "size" : 286390
-    } ],
-    "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 0
-  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -39,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Test Sign form with valid and invalid data"
@@ -58,25 +42,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-92.0.4515.159"
+    "value" : "chrome-94.0.4606.71"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "fc3cba047c69f583",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630991575531,
-        "stop" : 1630991581543,
-        "duration" : 6012
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fa2e3984d9d33036.json",
-  "parameterValues" : [ "chrome-92.0.4515.159" ]
+  "source" : "b1b278999bebce37.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
 }

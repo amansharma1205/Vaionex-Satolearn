@@ -2,60 +2,98 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Test3: Verfy ForgotPassword Screen",
+      "uid" : "a09a3d4f851af11b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633627434476,
+        "stop" : 1633627439300,
+        "duration" : 4824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "Test1: User should not be able to login with invalid data",
+      "uid" : "b0dba523a1dda0cc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633627423803,
+        "stop" : 1633627429960,
+        "duration" : 6157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "Test2: user should  be able to login with valid data",
+      "uid" : "b1b278999bebce37",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633627429961,
+        "stop" : 1633627434476,
+        "duration" : 4515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Test1: User should not be able to login with invalid data",
-      "uid" : "c3cff85372586fac",
+      "name" : "Test1: Verify HomePage Links",
+      "uid" : "6feb4b4ed4b95bb4",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1630991724636,
-        "stop" : 1630991732191,
-        "duration" : 7555
+        "start" : 1633627412794,
+        "stop" : 1633627419153,
+        "duration" : 6359
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.159" ]
-    }, {
-      "name" : "Test2: user should  be able to login with valid data",
-      "uid" : "fa2e3984d9d33036",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630991732193,
-        "stop" : 1630991737670,
-        "duration" : 5477
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.159" ]
-    }, {
-      "name" : "Test2: user should  be able to login with valid data",
-      "uid" : "fc3cba047c69f583",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630991575531,
-        "stop" : 1630991581543,
-        "duration" : 6012
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.159" ]
-    }, {
-      "name" : "Test1: User should not be able to login with invalid data",
-      "uid" : "e38cfdfa04033969",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630991567945,
-        "stop" : 1630991575529,
-        "duration" : 7584
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-92.0.4515.159" ]
+      "parameters" : [ "chrome-94.0.4606.71" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Test 1:- Verify User register with valid data",
+      "uid" : "1307fdc8327d1ba7",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633627457804,
+        "stop" : 1633627465147,
+        "duration" : 7343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Test 1:- Verify Quick Panle Screen",
+      "uid" : "1fcc4849e11cab92",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633627444155,
+        "stop" : 1633627453032,
+        "duration" : 8877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
   } ]
 }

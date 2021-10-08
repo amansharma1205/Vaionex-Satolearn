@@ -1,0 +1,58 @@
+{
+  "uid" : "1307fdc8327d1ba7",
+  "name" : "Test 1:- Verify User register with valid data",
+  "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
+  "historyId" : "88e3dc7e01ff701d76e9b83cce73965c",
+  "time" : {
+    "start" : 1633627457804,
+    "stop" : 1633627465147,
+    "duration" : 7343
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user register sucessfully"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user register sucessfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 1:- Verify User register with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Verify user register sucessfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1307fdc8327d1ba7.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}
