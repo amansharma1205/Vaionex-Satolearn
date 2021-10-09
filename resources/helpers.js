@@ -20,4 +20,15 @@ class healperFunctios{
        return randomEmail;
     }
 
+   async waitforPageload()
+		{
+		  await	browser.waitUntil(
+				() => browser.execute(() => document.readyState === 'complete')),
+				{
+				  timeout: 60 * 1000, // 60 seconds
+				  timeoutMsg: 'Message on failure'
+				}
+            	console.log("Executing WaitforPageLoad")
+            }
+
 } export default new healperFunctios()
