@@ -1,13 +1,13 @@
 import { homedir } from "os";
 import Home_Page from "../../pageObjects/home/Home_Page";
-//import helpers from "../../resources/helpers";
+import helpers from "../../resources/helpers";
 var assert = require('assert');
 
 describe('Verify Home Page Links and Menu', () =>{
 
-    before(function (){
-    browser.url('/');
-    //helpers.waitTillPageLoadComplete(browser);
+    before(async function (){
+    await browser.url('/');
+    await helpers.waitforPageload();
 
   })
      it('Test1: Verify HomePage Links', async ()  => {

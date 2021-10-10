@@ -1,23 +1,31 @@
 import QuickPanel_Page from "../../pageObjects/QuickPane/QuickPane_Page";
 import Login_Page from "../../pageObjects/login/Login_Page";
+import helpers from "../../resources/helpers";
 var assert = require('assert');
 
 describe('Quick Panle Test cases ',async()=>{
     
-    beforeEach (function (){
-        browser.url('/')
-        Login_Page.waitforPageload();
+              before('optional description', async function () {
+              await browser.url('/');
+              await helpers.waitforPageload();
+              await Login_Page.LoginToSato();
+                        
+            });
+  
+  
+  
+  beforeEach (async function (){
+       await helpers.waitforPageload();
+       await  browser.url('/')
+       await helpers.waitforPageload();
        
         
     })
     it('Test 1:- Verify Quick Panle Screen',async()=>{
       
-      Login_Page.LoginToSato();
-      await browser.pause(5000);
-      await Login_Page.clickSubmitButton();
-      await browser.pause(2000);
-      await Login_Page.quickPanel.click();
+       
     try {
+        await Login_Page.quickPanel.click();
         await QuickPanel_Page.WalletData.waitForExist();
         await expect(await QuickPanel_Page.WalletData).toHaveText("Wallet Data");
         await QuickPanel_Page.SatoshiBalance.waitForExist();

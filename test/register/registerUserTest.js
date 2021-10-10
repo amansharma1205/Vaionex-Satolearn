@@ -8,8 +8,9 @@
 
 describe('Verify user register sucessfully',()=>{
 	
-    beforeEach (function (){
+    beforeEach (async function (){
 	    browser.url('/')
+      await helpers.waitforPageload();
     
 	  })
 

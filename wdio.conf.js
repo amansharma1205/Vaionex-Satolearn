@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/userProfile/*.js'
+        './test/*/*.js'
     ],
     // Patterns to exclude.
     exclude: [

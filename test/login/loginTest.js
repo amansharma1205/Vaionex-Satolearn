@@ -1,5 +1,5 @@
     import data from "../../resources/login/login_Resource.js";
-  	//const helpers = require("../../../resources/helpers.js");
+	import helpers from "../../resources/helpers";
 	import Home_Page from "../../pageObjects/home/Home_Page";
 	var assert = require('assert');
 	import Login_Page from '../../pageObjects/login/Login_Page'
@@ -7,8 +7,9 @@
 	
 	describe('Test Sign form with valid and invalid data', () =>{
 
-		beforeEach (function (){
+		beforeEach (async function (){
 	    browser.url('/')
+		await helpers.waitforPageload();
 	
 	  })
 		 it('Test1: User should not be able to login with invalid data',  async() => {

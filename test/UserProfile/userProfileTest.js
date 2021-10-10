@@ -16,6 +16,7 @@ describe('Verify User Profile screen test cases ',()=>{
             beforeEach (async function (){
              await helpers.waitforPageload();
              await browser.url('/overview');
+             await helpers.waitforPageload();
                                   
             })
     
