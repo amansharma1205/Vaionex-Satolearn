@@ -145,7 +145,7 @@ describe('Verify User Profile screen test cases ',()=>{
       try {
         await userProfile_Page.userProfileTermCondition.click();
         await expect(browser).toHaveUrlContaining('terms');
-        await expect(browser).toHaveTitle('Terms and Conditions');
+        await expect(browser).toHaveTitle('Terms and Conditionss');
         
         
       } catch (error) {

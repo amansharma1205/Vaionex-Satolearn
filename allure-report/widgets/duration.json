@@ -1,61 +1,141 @@
 [ {
-  "uid" : "a09a3d4f851af11b",
-  "name" : "Test3: Verfy ForgotPassword Screen",
+  "uid" : "36026631181994b4",
+  "name" : "Test 3 :- Verify Creator Space Screen",
   "time" : {
-    "start" : 1633627434476,
-    "stop" : 1633627439300,
-    "duration" : 4824
+    "start" : 1633872020735,
+    "stop" : 1633872029137,
+    "duration" : 8402
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6feb4b4ed4b95bb4",
-  "name" : "Test1: Verify HomePage Links",
+  "uid" : "7f7110caa087bf65",
+  "name" : "Test 2:- verify Tutors screen ",
   "time" : {
-    "start" : 1633627412794,
-    "stop" : 1633627419153,
-    "duration" : 6359
+    "start" : 1633871948470,
+    "stop" : 1633871950948,
+    "duration" : 2478
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1307fdc8327d1ba7",
-  "name" : "Test 1:- Verify User register with valid data",
-  "time" : {
-    "start" : 1633627457804,
-    "stop" : 1633627465147,
-    "duration" : 7343
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1b278999bebce37",
-  "name" : "Test2: user should  be able to login with valid data",
-  "time" : {
-    "start" : 1633627429961,
-    "stop" : 1633627434476,
-    "duration" : 4515
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fcc4849e11cab92",
-  "name" : "Test 1:- Verify Quick Panle Screen",
-  "time" : {
-    "start" : 1633627444155,
-    "stop" : 1633627453032,
-    "duration" : 8877
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0dba523a1dda0cc",
+  "uid" : "3c250439cc53ddde",
   "name" : "Test1: User should not be able to login with invalid data",
   "time" : {
-    "start" : 1633627423803,
-    "stop" : 1633627429960,
-    "duration" : 6157
+    "start" : 1633871898073,
+    "stop" : 1633871914288,
+    "duration" : 16215
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a4ae39882b8875b",
+  "name" : "Test1: Verify HomePage Links",
+  "time" : {
+    "start" : 1633871885868,
+    "stop" : 1633871891847,
+    "duration" : 5979
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d290d173eb37c81",
+  "name" : "Test 3 Verify Your Achievements Screen ",
+  "time" : {
+    "start" : 1633871950949,
+    "stop" : 1633871954408,
+    "duration" : 3459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4b6fc5eb19d12aa",
+  "name" : "Test 1:- Verify the  Home Screen",
+  "time" : {
+    "start" : 1633871931851,
+    "stop" : 1633871948468,
+    "duration" : 16617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82eff06a54276bc",
+  "name" : "Test 4 :- Verify guidelines screen",
+  "time" : {
+    "start" : 1633872029137,
+    "stop" : 1633872033973,
+    "duration" : 4836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac6e655a56182da",
+  "name" : "Test 1:- Verify User register with valid data",
+  "time" : {
+    "start" : 1633871980593,
+    "stop" : 1633871991040,
+    "duration" : 10447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fd68c9bc05ba830",
+  "name" : "Test3: Verfy ForgotPassword Screen",
+  "time" : {
+    "start" : 1633871920946,
+    "stop" : 1633871926092,
+    "duration" : 5146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5db97f7478430139",
+  "name" : "Test2: user should  be able to login with valid data",
+  "time" : {
+    "start" : 1633871914299,
+    "stop" : 1633871920946,
+    "duration" : 6647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3693ad9509867b3a",
+  "name" : "Test 1:- Verify Quick Panle Screen",
+  "time" : {
+    "start" : 1633871960134,
+    "stop" : 1633871974656,
+    "duration" : 14522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92de78a8460bacff",
+  "name" : "Test 2 Verify My Profile screen",
+  "time" : {
+    "start" : 1633872012691,
+    "stop" : 1633872020735,
+    "duration" : 8044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "370bc8d80d3ab769",
+  "name" : "Test 1:- Verify user Profile Screen",
+  "time" : {
+    "start" : 1633871997175,
+    "stop" : 1633872012690,
+    "duration" : 15515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a927bb10945c7e14",
+  "name" : "Test 5:- Verify terms and condtition page",
+  "time" : {
+    "start" : 1633872033973,
+    "stop" : 1633872045880,
+    "duration" : 11907
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

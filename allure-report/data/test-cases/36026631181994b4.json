@@ -1,12 +1,12 @@
 {
-  "uid" : "b1b278999bebce37",
-  "name" : "Test2: user should  be able to login with valid data",
-  "fullName" : "Test Sign form with valid and invalid data.Test2: user should  be able to login with valid data",
-  "historyId" : "ef2dc745ea0b7c1f4c5ad733621e2709",
+  "uid" : "36026631181994b4",
+  "name" : "Test 3 :- Verify Creator Space Screen",
+  "fullName" : "Verify User Profile screen test cases .Test 3 :- Verify Creator Space Screen",
+  "historyId" : "e0a25240438902bf4a14d32f165dad29",
   "time" : {
-    "start" : 1633627429961,
-    "stop" : 1633627434476,
-    "duration" : 4515
+    "start" : 1633872020735,
+    "stop" : 1633872029137,
+    "duration" : 8402
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,26 +23,26 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-5"
   }, {
     "name" : "suite",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testClass",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testMethod",
-    "value" : "Test2: user should  be able to login with valid data"
+    "value" : "Test 3 :- Verify Creator Space Screen"
   }, {
     "name" : "package",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b1b278999bebce37.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "36026631181994b4.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "1fcc4849e11cab92",
-  "name" : "Test 1:- Verify Quick Panle Screen",
-  "fullName" : "Quick Panle Test cases .Test 1:- Verify Quick Panle Screen",
-  "historyId" : "1d930e8132e78387b039ff25136c4c2b",
+  "uid" : "370bc8d80d3ab769",
+  "name" : "Test 1:- Verify user Profile Screen",
+  "fullName" : "Verify User Profile screen test cases .Test 1:- Verify user Profile Screen",
+  "historyId" : "c851365636c17190becc6eaeca7203ae",
   "time" : {
-    "start" : 1633627444155,
-    "stop" : 1633627453032,
-    "duration" : 8877
+    "start" : 1633871997175,
+    "stop" : 1633872012690,
+    "duration" : 15515
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,26 +23,26 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-5"
   }, {
     "name" : "suite",
-    "value" : "Quick Panle Test cases "
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testClass",
-    "value" : "Quick Panle Test cases "
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testMethod",
-    "value" : "Test 1:- Verify Quick Panle Screen"
+    "value" : "Test 1:- Verify user Profile Screen"
   }, {
     "name" : "package",
-    "value" : "Quick Panle Test cases "
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1fcc4849e11cab92.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "370bc8d80d3ab769.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "6feb4b4ed4b95bb4",
-  "name" : "Test1: Verify HomePage Links",
-  "fullName" : "Verify Home Page Links and Menu.Test1: Verify HomePage Links",
-  "historyId" : "e02a8d7a51e3ef02b6f3a9f4119be15a",
+  "uid" : "3693ad9509867b3a",
+  "name" : "Test 1:- Verify Quick Panle Screen",
+  "fullName" : "Quick Panle Test cases .Test 1:- Verify Quick Panle Screen",
+  "historyId" : "ec64bd3c93c58efd7f115dd093033b3e",
   "time" : {
-    "start" : 1633627412794,
-    "stop" : 1633627419153,
-    "duration" : 6359
+    "start" : 1633871960134,
+    "stop" : 1633871974656,
+    "duration" : 14522
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,26 +23,26 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-3"
   }, {
     "name" : "suite",
-    "value" : "Verify Home Page Links and Menu"
+    "value" : "Quick Panle Test cases "
   }, {
     "name" : "testClass",
-    "value" : "Verify Home Page Links and Menu"
+    "value" : "Quick Panle Test cases "
   }, {
     "name" : "testMethod",
-    "value" : "Test1: Verify HomePage Links"
+    "value" : "Test 1:- Verify Quick Panle Screen"
   }, {
     "name" : "package",
-    "value" : "Verify Home Page Links and Menu"
+    "value" : "Quick Panle Test cases "
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6feb4b4ed4b95bb4.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "3693ad9509867b3a.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

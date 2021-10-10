@@ -1,12 +1,12 @@
 {
-  "uid" : "a09a3d4f851af11b",
-  "name" : "Test3: Verfy ForgotPassword Screen",
-  "fullName" : "Test Sign form with valid and invalid data.Test3: Verfy ForgotPassword Screen",
-  "historyId" : "6d5962a94b6083c43570129b179bec1e",
+  "uid" : "92de78a8460bacff",
+  "name" : "Test 2 Verify My Profile screen",
+  "fullName" : "Verify User Profile screen test cases .Test 2 Verify My Profile screen",
+  "historyId" : "b82f266683729a18ddd84c7f463b51d2",
   "time" : {
-    "start" : 1633627434476,
-    "stop" : 1633627439300,
-    "duration" : 4824
+    "start" : 1633872012691,
+    "stop" : 1633872020735,
+    "duration" : 8044
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,26 +23,26 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-5"
   }, {
     "name" : "suite",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testClass",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testMethod",
-    "value" : "Test3: Verfy ForgotPassword Screen"
+    "value" : "Test 2 Verify My Profile screen"
   }, {
     "name" : "package",
-    "value" : "Test Sign form with valid and invalid data"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a09a3d4f851af11b.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "92de78a8460bacff.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

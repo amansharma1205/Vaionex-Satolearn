@@ -1,12 +1,12 @@
 {
-  "uid" : "1307fdc8327d1ba7",
-  "name" : "Test 1:- Verify User register with valid data",
-  "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
-  "historyId" : "88e3dc7e01ff701d76e9b83cce73965c",
+  "uid" : "a82eff06a54276bc",
+  "name" : "Test 4 :- Verify guidelines screen",
+  "fullName" : "Verify User Profile screen test cases .Test 4 :- Verify guidelines screen",
+  "historyId" : "89bc1a13cdf2d428a9f190511ae44b55",
   "time" : {
-    "start" : 1633627457804,
-    "stop" : 1633627465147,
-    "duration" : 7343
+    "start" : 1633872029137,
+    "stop" : 1633872033973,
+    "duration" : 4836
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,26 +23,26 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-3"
+    "value" : "0-5"
   }, {
     "name" : "suite",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testClass",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "testMethod",
-    "value" : "Test 1:- Verify User register with valid data"
+    "value" : "Test 4 :- Verify guidelines screen"
   }, {
     "name" : "package",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify User Profile screen test cases "
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1307fdc8327d1ba7.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "a82eff06a54276bc.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

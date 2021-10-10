@@ -1,12 +1,12 @@
 {
-  "uid" : "b0dba523a1dda0cc",
-  "name" : "Test1: User should not be able to login with invalid data",
-  "fullName" : "Test Sign form with valid and invalid data.Test1: User should not be able to login with invalid data",
-  "historyId" : "8e6b0ab603a1118286cc5c20968457d2",
+  "uid" : "5db97f7478430139",
+  "name" : "Test2: user should  be able to login with valid data",
+  "fullName" : "Test Sign form with valid and invalid data.Test2: user should  be able to login with valid data",
+  "historyId" : "d24277cf0eae491c6ed5adc8c8e3c8ee",
   "time" : {
-    "start" : 1633627423803,
-    "stop" : 1633627429960,
-    "duration" : 6157
+    "start" : 1633871914299,
+    "stop" : 1633871920946,
+    "duration" : 6647
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -14,6 +14,22 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9920562791458bd9",
+      "name" : "Screenshot",
+      "source" : "9920562791458bd9.png",
+      "type" : "image/png",
+      "size" : 295659
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -32,7 +48,7 @@
     "value" : "Test Sign form with valid and invalid data"
   }, {
     "name" : "testMethod",
-    "value" : "Test1: User should not be able to login with invalid data"
+    "value" : "Test2: user should  be able to login with valid data"
   }, {
     "name" : "package",
     "value" : "Test Sign form with valid and invalid data"
@@ -42,7 +58,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.71"
+    "value" : "chrome-94.0.4606.81"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -53,6 +69,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b0dba523a1dda0cc.json",
-  "parameterValues" : [ "chrome-94.0.4606.71" ]
+  "source" : "5db97f7478430139.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
 }

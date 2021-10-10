@@ -1,0 +1,64 @@
+{
+  "uid" : "a927bb10945c7e14",
+  "name" : "Test 5:- Verify terms and condtition page",
+  "fullName" : "Verify User Profile screen test cases .Test 5:- Verify terms and condtition page",
+  "historyId" : "684c67b24d6fd9d58290a9bc9b498e3",
+  "time" : {
+    "start" : 1633872033973,
+    "stop" : 1633872045880,
+    "duration" : 11907
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Failed\n                    at Context.<anonymous> (D:\\Vaionex\\test\\UserProfile\\/userProfileTest.js:153:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 5:- Verify terms and condtition page"
+  }, {
+    "name" : "package",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a927bb10945c7e14.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

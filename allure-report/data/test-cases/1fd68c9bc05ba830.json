@@ -1,0 +1,58 @@
+{
+  "uid" : "1fd68c9bc05ba830",
+  "name" : "Test3: Verfy ForgotPassword Screen",
+  "fullName" : "Test Sign form with valid and invalid data.Test3: Verfy ForgotPassword Screen",
+  "historyId" : "6daaf00036c03f430607c42fe60748e2",
+  "time" : {
+    "start" : 1633871920946,
+    "stop" : 1633871926092,
+    "duration" : 5146
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test3: Verfy ForgotPassword Screen"
+  }, {
+    "name" : "package",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fd68c9bc05ba830.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

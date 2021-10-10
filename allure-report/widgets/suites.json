@@ -1,8 +1,30 @@
 {
-  "total" : 4,
+  "total" : 6,
   "items" : [ {
+    "uid" : "f611c2a1df7b29004849690645f38bbf",
+    "name" : "Verify User Profile screen test cases ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "8b65158268e2099d4be3b349c249a4e3",
     "name" : "Test Sign form with valid and invalid data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "5ed985f3e0cde308828938ed0d709a95",
+    "name" : "Verify overView Menu",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
