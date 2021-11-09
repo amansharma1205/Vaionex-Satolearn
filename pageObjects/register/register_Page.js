@@ -11,36 +11,19 @@ class register_Page {
 	get submitButton() { return $("//button[@class='btn btn-primary btn-elevate kt-login__btn-primary']");}
 	
 
-	fillAddSignupForm(email, displayName,password,confirmPassword) {
-		console.log("1");
-		//browser.waitUntil(()=>{
-    	//  return Home_Page.registerLink.isDisplayed()===true
-    //	 },10000,'Wait till registerLink displayed');
-		 Home_Page.registerLink.click();
-		console.log("11");
+    async fillAddSignupForm(email, displayName,password,confirmPassword) {
+			
+		await Home_Page.registerLink.click();
 		if(email) {
-			this.email.setValue(email);
-			console.log("2");
-		}
+			await this.email.setValue(email);}
 		if(displayName) {
-			this.displayName.setValue(displayName);
-			console.log("3");
-		}
+			await this.displayName.setValue(displayName);}
 		if(password) {
-			this.password.setValue(password);
-			console.log("4");
-		}
+		    await this.password.setValue(password);}
 		if(confirmPassword) {
-			this.confirmPassword.setValue(confirmPassword);
-			console.log("5");
-		}
-		console.log("6");
-		this.acceptTerms.click();
-	  
-    	 
+		   await this.confirmPassword.setValue(confirmPassword);}
+		await this.acceptTerms.click();
+		await this.submitButton.click();
 	}
-
 }
-
-
 module.exports = new register_Page();

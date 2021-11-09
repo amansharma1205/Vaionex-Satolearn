@@ -15,17 +15,14 @@ describe('Verify user register sucessfully',()=>{
 	  })
 
       it('Test 1:- Verify User register with valid data',async()=>{
-        var email=helpers.randomEmailGenerator();
         await Home_Page.registerLink.click();  
-        await register_Page.fillAddSignupForm(email,"Aman","123456","123456");
-        await browser.pause(2000);
-        await register_Page.submitButton.click();
+        await register_Page.fillAddSignupForm(helpers.randomEmailGenerator(),"Aman","123456","123456");
+       
         try{
         await expect (Login_Page.quickPanel).toBeDisplayed();
-        console.log("Exception: ");   } 
+        } 
         catch(err) {
 				console.log("Exception: " + err);
         assert.fail();}
-      
       })
 });

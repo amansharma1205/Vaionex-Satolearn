@@ -1,12 +1,12 @@
 {
-  "uid" : "5ac6e655a56182da",
+  "uid" : "aacbb1e51957a284",
   "name" : "Test 1:- Verify User register with valid data",
   "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
-  "historyId" : "8e50ee4e2367edbe038250046f0358c9",
+  "historyId" : "b61bc5b0dd27316e3b48728bd638bb3c",
   "time" : {
-    "start" : 1633871980593,
-    "stop" : 1633871991040,
-    "duration" : 10447
+    "start" : 1635315598924,
+    "stop" : 1635315614113,
+    "duration" : 15189
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-4"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "Verify user register sucessfully"
@@ -42,17 +42,15 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-94.0.4606.81"
+    "value" : "chrome-95.0.4638.54"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5ac6e655a56182da.json",
-  "parameterValues" : [ "chrome-94.0.4606.81" ]
+  "source" : "aacbb1e51957a284.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
 }

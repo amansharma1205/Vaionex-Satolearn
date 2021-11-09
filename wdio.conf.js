@@ -1,6 +1,6 @@
 var baseUrl;
 var retryCount;
-var generateReport=1;
+var generateReport=0;
 if(process.env.SERVER === 'prod') {
     baseUrl = 'https://prod.satolearn.com/';
     } else {
@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/*/*.js'
+        './test/CreateNewCourse/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -68,10 +68,10 @@ exports.config = {
         maxInstances: 1,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true,
-        'goog:chromeOptions': { 
-            args: ["--headless", "--disable-gpu","--window-size=1440,735"]
-        }
+        acceptInsecureCerts: true
+        //'goog:chromeOptions': { 
+        //    args: ["--headless", "--disable-gpu","--window-size=1440,735"]
+      //  }
         
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.

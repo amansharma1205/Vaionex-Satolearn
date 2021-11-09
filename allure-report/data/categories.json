@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"//span[@id='client-snackbar']\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Test1: User should not be able to login with invalid data",
-        "uid" : "3c250439cc53ddde",
-        "parentUid" : "c7d5e14cd234f793dfb5a0e0c1113a36",
-        "status" : "broken",
-        "time" : {
-          "start" : 1633871898073,
-          "stop" : 1633871914288,
-          "duration" : 16215
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-94.0.4606.81" ]
-      } ],
-      "uid" : "c7d5e14cd234f793dfb5a0e0c1113a36"
-    }, {
-      "name" : "Failed",
-      "children" : [ {
-        "name" : "Test 5:- Verify terms and condtition page",
-        "uid" : "a927bb10945c7e14",
-        "parentUid" : "03f9e54d3a14066992f2afe8a46e8ede",
-        "status" : "broken",
-        "time" : {
-          "start" : 1633872033973,
-          "stop" : 1633872045880,
-          "duration" : 11907
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-94.0.4606.81" ]
-      } ],
-      "uid" : "03f9e54d3a14066992f2afe8a46e8ede"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

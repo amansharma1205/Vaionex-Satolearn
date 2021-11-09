@@ -22,14 +22,12 @@ class Login_Page {
 		async LoginToSato(){
 		   
 		   console.log("Inside Login Function ");	
-		   Home_Page.loginLink.click();
+		   await Home_Page.loginLink.click();
 		   await this.setUserName(data.devServer_credencials.email);
 		   await this.setPassword(data.devServer_credencials.password);
-		  // await browser.pause(3000);
 		   await this.clickSubmitButton()
 		   await this.quickPanel.waitForDisplayed();
-		   return true;
-			
+		 
 		 }
      
 		 async	setUserName(userName) {
