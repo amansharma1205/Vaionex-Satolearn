@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/CreateNewCourse/*.js'
+        './test/login/*.js'
     ],
     // Patterns to exclude.
     exclude: [
