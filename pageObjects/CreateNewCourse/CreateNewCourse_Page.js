@@ -1,9 +1,10 @@
 import userProfile_Page from "../userProfile/userProfile_Page";
+import helpers from "../../resources/helpers";
 class CreateNewCourse_Page{
     
     
    
-   get CourseTitleBTN() { return $("//div[@class='jss30'][1]/div[@class='jss31']/button[@class='MuiButtonBase-root MuiIconButton-root jss32']");}
+   get CourseTitleBTN() { return $("//span[@class='MuiIconButton-label'][position()=1]");}
    get CourseTitleTextArea() { return $("//textarea[@id='Task-Name-basic']");}
    get CourseTitleSaveBTN() { return $("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained']/span[@class='MuiButton-label']");}
 
@@ -62,6 +63,23 @@ class CreateNewCourse_Page{
          await userProfile_Page.creatorSpaceAggreeBTN.waitForDisplayed();
          await userProfile_Page.creatorSpaceAggreeBTN.click();
          await userProfile_Page.creatorSpaceCourseDetailsPage.waitForDisplayed();
+
+         await this.CourseTitleBTN.waitForDisplayed({ timeout: 20000 });
+         await this.CourseTitleBTN.click();
+        
+         
+         await helpers.setValue(this.CourseTitleTextArea,"Test Course");
+         await this.CourseTitleSaveBTN.click();
+
+         await this.CourseVideoPreviewBTN.click();
+         await helpers.setValue(this.CourseVideoURL,"https://www.youtube.com/watch?v=ONleEKweKL4");
+
+         await this.CourseTakeAwaySkill.setValue("Coins and Crypto");
+         await this.CourseTokensOnCompletion.click();
+         await this.CourseTokenQuantity.setValue("5"); 
+         await this.CourseMemonic.setValue("ABCD")
+         await this.CourseRevId.setValue("Abcd1234")
+         await this.CourseSaveTokenDetail.click();
          
 
 

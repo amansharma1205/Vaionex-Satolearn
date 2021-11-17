@@ -9,7 +9,8 @@ import camelcase from 'camelcase'
 import { expect } from 'chai'
 //const writeFile = util.promisify(fs.writeFile)
 
-class healperFunctios{
+class helpersFunction{
+  
     randomEmailGenerator(){
         var chars = 'abcdefghijklmnopqrstuvwxyz1234567890';
         var string = '';
@@ -31,4 +32,10 @@ class healperFunctios{
             	console.log("Executing WaitforPageLoad")
             }
 
-} export default new healperFunctios()
+  async setValue(object,value){
+        await object.waitForDisplayed();
+        await object.clearValue();
+        return await object.setValue(value);
+    }          
+
+} export default new helpersFunction()

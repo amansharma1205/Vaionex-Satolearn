@@ -11,6 +11,8 @@ class Login_Page {
 		get successfulLogin() {return $("//span[@class='kt-header__topbar-username kt-hidden-mobile']");}
 		get unsuccessfulLogin() {return $("//span[@id='client-snackbar']");}
 		get quickPanel() {return $("//button[@class='MuiButtonBase-root MuiIconButton-root']");}
+		get EmailReqField() {return $("//div[@class='form-group'][1]//p[@class='MuiFormHelperText-root Mui-error']")}
+		get PasswordReqField() {return $("//div[@class='form-group'][2]//p[@class='MuiFormHelperText-root Mui-error']")}
 		
     ///##Forgot Password 
 		get forgotPasswordLink(){return $("//a[@class='kt-link kt-login__link-forgot']");}
