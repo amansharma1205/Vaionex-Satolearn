@@ -33,7 +33,9 @@ class helpersFunction{
             }
 
   async setValue(object,value){
+        await object.waitForExist({ timeout: 5000 })
         await object.waitForDisplayed();
+        await object.click();
         await object.clearValue();
         return await object.setValue(value);
     }

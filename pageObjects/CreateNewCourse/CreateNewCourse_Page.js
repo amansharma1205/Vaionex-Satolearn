@@ -23,28 +23,23 @@ class CreateNewCourse_Page{
    
    get CourseExtends() { return $("//div[@id='type-simple-select' and text()='Wallet Workshop']");}
    get CourseDifficulty() { return $("//div[@id='type-simple-select' and text()='Intermediate']");}
-   get CourseDuration() { return $("[class] .jss28:nth-of-type(3) [transform]");}
-   get CoursePrice() { return $("div:nth-of-type(4) > div > .MuiButtonBase-root.MuiIconButton-root  .MuiSvgIcon-fontSizeSmall.MuiSvgIcon-root > path");}
+   get CourseDuration() { return $("//div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/button");}
+   get CourseDurationHourText() { return $("//textarea[@id='Task-Name-basic']");}
+   
+   get CoursePrice() { return $("//div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]//button");}
+   get CoursePriceTextArea() { return $("//textarea[@id='Task-Name-basic']");}
+   
 
    get CourseTimeToComplete() { return $("//textarea[@id='Task-Name-basic']");}
    get CourseTimeSaveBTN() { return $("//div[@class='MuiDialogActions-root MuiDialogActions-spacing']/button[2]/span[@class='MuiButton-label']");}
 
+   get CourseLessionTab() { return $("//div//div[@role='tablist']/button[2]");}
    get CourseLessionAddSectionBTN() { return $("//button[@type='button']/span[@class='MuiButton-label' and text()='Add Section']");}
    get CourseLessionSectionName() { return $("//input[@id='Title-Name-basic']");}
    get CourseLessionSectionDescription() { return $("//textarea[@id='Title-Desc-basic']");}
 
    get CourseLessionSectionSaveBTN() { return $("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary']/span[@class='MuiButton-label']");}
 
-   
-   
-   
-
-   
-
-
-   
-   
-   
    
    
   
@@ -82,15 +77,36 @@ class CreateNewCourse_Page{
          await this.CourseRevId.setValue("Abcd1234")
          await this.CourseSaveTokenDetail.click();
          
-
          await userProfile_Page.creatorSpaceLessonsPageBTN.click();
-         
          await userProfile_Page.creatorSpaceLessonsAddSectionBTN.waitForDisplayed();
          await userProfile_Page.creatorSpaceLessonsAddSectionBTN.click();
          await userProfile_Page.creatorSpaceLessonsAddSectionCancelBTN.waitForDisplayed()
          await userProfile_Page.creatorSpaceLessonsAddSectionCancelBTN.click();
          await userProfile_Page.creatorSpaceStatsPageBTN.click();
-         await browser.pause(10000);
+        
+         await this.CourseDuration.click();
+         await helpers.setValue(this.CourseDurationHourText,"8");
+         await this.CourseTimeSaveBTN.click();
+         await this.CoursePrice.click();
+         await helpers.setValue(this.CoursePriceTextArea,"800");
+         await this.CourseTimeSaveBTN.click();
+
+         await this.CourseLessionTab.click();
+         await this.CourseLessionAddSectionBTN.click()
+         await this.CourseLessionSectionName.setValue("A")
+         await this.CourseLessionSectionDescription.setValue("This Section Cover BSV intro")
+         await this.CourseLessionSectionSaveBTN.click();
+         await this.CourseLessionAddSectionBTN.click()
+         await this.CourseLessionSectionName.setValue("B")
+         await this.CourseLessionSectionDescription.setValue("This Section Cover Vaionex Intro")
+         await this.CourseLessionSectionSaveBTN.click();
+        
+         await browser.pause(1000);
+         await userProfile_Page.userProfileIcon.waitForDisplayed();
+         await userProfile_Page.userProfileIcon.click();
+         await userProfile_Page.userProfileMyProfile.waitForDisplayed();
+         await userProfile_Page.userProfileCreatorSpace.click();
+         await userProfile_Page.creatorSpaceMyCourses.waitForDisplayed();
 
     }
     
