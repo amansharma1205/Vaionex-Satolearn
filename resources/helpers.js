@@ -36,6 +36,18 @@ class helpersFunction{
         await object.waitForDisplayed();
         await object.clearValue();
         return await object.setValue(value);
-    }          
+    }
+    
+  async runAutoItScript(pathToScript, scriptName) {
+      console.info(`\n> Started execution of ${scriptName} ...`);
+    
+      execFile(`${pathToScript}/${scriptName}`, (error, stdout, stderr) => {
+        if (error) {
+          throw error;
+        } else {
+          console.info(`\n> Finished execution of ${scriptName}! | Output: ${stdout}`);
+        }
+      });
+    }
 
 } export default new helpersFunction()

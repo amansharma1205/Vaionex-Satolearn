@@ -74,6 +74,7 @@
 			await browser.url('/auth/login');
 			try {
 				
+				
 			    await Login_Page.submitButton.click();
 			    await expect(Login_Page.EmailReqField).toHaveText("Required field");
 				await expect(Login_Page.PasswordReqField).toHaveText("Required field");

@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/login/*.js'
+        './test/CreateNewCourse/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -86,6 +86,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'error',
+    coloredLogs: true,
     //
     // Set specific log levels per logger
     // loggers:
@@ -204,8 +205,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // beforeSession: function (config, capabilities, specs) {
-    // },
+     beforeSession: function (config, capabilities, specs) {
+      
+      },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
      * variables like `browser`. It is the perfect place to define custom commands.
@@ -303,8 +305,8 @@ exports.config = {
      onComplete: function(exitCode, config, capabilities, results) {
       if(generateReport==1)
       {
-          console.log("inside Generate report ");
-          console.log("generateReport",generateReport);
+          
+        console.log("generateReport",generateReport);
         const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results', '--clean'])
         return new Promise((resolve, reject) => {
