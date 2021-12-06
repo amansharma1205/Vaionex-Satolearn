@@ -1,12 +1,12 @@
 {
-  "uid" : "10f4a672e48cf69e",
+  "uid" : "e080a6e26b14bfab",
   "name" : "Test 1:- Verify User register with valid data",
   "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
-  "historyId" : "b61bc5b0dd27316e3b48728bd638bb3c",
+  "historyId" : "5d0071c53af56da3dbed3e6d6c5be76a",
   "time" : {
-    "start" : 1635315901419,
-    "stop" : 1635315910578,
-    "duration" : 9159
+    "start" : 1638368023666,
+    "stop" : 1638368030052,
+    "duration" : 6386
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-5"
   }, {
     "name" : "suite",
     "value" : "Verify user register sucessfully"
@@ -42,34 +42,15 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-95.0.4638.54"
+    "value" : "chrome-96.0.4664.45"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "aacbb1e51957a284",
-      "status" : "passed",
-      "time" : {
-        "start" : 1635315598924,
-        "stop" : 1635315614113,
-        "duration" : 15189
-      }
-    }, {
-      "uid" : "89f0aba3a0480212",
-      "status" : "broken",
-      "statusDetails" : "Failed",
-      "time" : {
-        "start" : 1635315511959,
-        "stop" : 1635315531843,
-        "duration" : 19884
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "10f4a672e48cf69e.json",
-  "parameterValues" : [ "chrome-95.0.4638.54" ]
+  "source" : "e080a6e26b14bfab.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
 }

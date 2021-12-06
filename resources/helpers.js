@@ -52,4 +52,10 @@ class helpersFunction{
       });
     }
 
+    async KeyPress(Key, Number) {
+        for (let i = 0; i < Number; i++) {
+        await browser.keys(Key);
+      }
+    }
+
 } export default new helpersFunction()

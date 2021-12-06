@@ -1,0 +1,66 @@
+{
+  "uid" : "5efb31fc3f2ba948",
+  "name" : "Test4: Verify required field error message",
+  "fullName" : "Test Sign form with valid and invalid data.Test4: Verify required field error message",
+  "historyId" : "a0d6872ac1dd3fa09410341e5782b07c",
+  "time" : {
+    "start" : 1638369687485,
+    "stop" : 1638369705622,
+    "duration" : 18137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test4: Verify required field error message"
+  }, {
+    "name" : "package",
+    "value" : "Test Sign form with valid and invalid data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f42a40e631fa5028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638367954667,
+        "stop" : 1638367958803,
+        "duration" : 4136
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5efb31fc3f2ba948.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

@@ -1,6 +1,6 @@
 var baseUrl;
 var retryCount;
-var generateReport=0;
+var generateReport=1;
 if(process.env.SERVER === 'prod') {
     baseUrl = 'https://prod.satolearn.com/';
     } else {
@@ -32,7 +32,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/CreateNewCourse/*.js'
+        './test/*/*.js'
     ],
     // Patterns to exclude.
     exclude: [

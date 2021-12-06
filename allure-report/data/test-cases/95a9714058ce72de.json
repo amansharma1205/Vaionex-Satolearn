@@ -1,0 +1,66 @@
+{
+  "uid" : "95a9714058ce72de",
+  "name" : "Test 1:- Verify user Profile Screen",
+  "fullName" : "Verify User Profile screen test cases .Test 1:- Verify user Profile Screen",
+  "historyId" : "230422305815aaa73cb1979f27195820",
+  "time" : {
+    "start" : 1638369837463,
+    "stop" : 1638369861646,
+    "duration" : 24183
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 1:- Verify user Profile Screen"
+  }, {
+    "name" : "package",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5df6752022c43096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638368039521,
+        "stop" : 1638368050529,
+        "duration" : 11008
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95a9714058ce72de.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

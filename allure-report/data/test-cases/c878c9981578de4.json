@@ -1,0 +1,66 @@
+{
+  "uid" : "c878c9981578de4",
+  "name" : "Test 1 Verify user is able to Crete New Course",
+  "fullName" : "Verify Create New Course test.Test 1 Verify user is able to Crete New Course",
+  "historyId" : "1410f6b553cfb6efc53e423a9d23bd23",
+  "time" : {
+    "start" : 1638369594704,
+    "stop" : 1638369644867,
+    "duration" : 50163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Create New Course test"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Create New Course test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 1 Verify user is able to Crete New Course"
+  }, {
+    "name" : "package",
+    "value" : "Verify Create New Course test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85d88f5b0db186f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638367892050,
+        "stop" : 1638367922471,
+        "duration" : 30421
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c878c9981578de4.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

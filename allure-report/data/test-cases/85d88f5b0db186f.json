@@ -1,12 +1,12 @@
 {
-  "uid" : "aacbb1e51957a284",
-  "name" : "Test 1:- Verify User register with valid data",
-  "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
-  "historyId" : "b61bc5b0dd27316e3b48728bd638bb3c",
+  "uid" : "85d88f5b0db186f",
+  "name" : "Test 1 Verify user is able to Crete New Course",
+  "fullName" : "Verify Create New Course test.Test 1 Verify user is able to Crete New Course",
+  "historyId" : "1410f6b553cfb6efc53e423a9d23bd23",
   "time" : {
-    "start" : 1635315598924,
-    "stop" : 1635315614113,
-    "duration" : 15189
+    "start" : 1638367892050,
+    "stop" : 1638367922471,
+    "duration" : 30421
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -26,23 +26,23 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify Create New Course test"
   }, {
     "name" : "testClass",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify Create New Course test"
   }, {
     "name" : "testMethod",
-    "value" : "Test 1:- Verify User register with valid data"
+    "value" : "Test 1 Verify user is able to Crete New Course"
   }, {
     "name" : "package",
-    "value" : "Verify user register sucessfully"
+    "value" : "Verify Create New Course test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-95.0.4638.54"
+    "value" : "chrome-96.0.4664.45"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -51,6 +51,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aacbb1e51957a284.json",
-  "parameterValues" : [ "chrome-95.0.4638.54" ]
+  "source" : "85d88f5b0db186f.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
 }

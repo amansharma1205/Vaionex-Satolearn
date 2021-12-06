@@ -1,0 +1,66 @@
+{
+  "uid" : "85d1477c5d889c24",
+  "name" : "Test1: Verify HomePage Links",
+  "fullName" : "Verify Home Page Links and Menu.Test1: Verify HomePage Links",
+  "historyId" : "616a75b1c49131915eec904e5b7a2e57",
+  "time" : {
+    "start" : 1638369657307,
+    "stop" : 1638369674006,
+    "duration" : 16699
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Home Page Links and Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Home Page Links and Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1: Verify HomePage Links"
+  }, {
+    "name" : "package",
+    "value" : "Verify Home Page Links and Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a84ad8848b46c4ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638367935470,
+        "stop" : 1638367941618,
+        "duration" : 6148
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85d1477c5d889c24.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

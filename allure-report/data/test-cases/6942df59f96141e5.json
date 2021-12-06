@@ -1,0 +1,72 @@
+{
+  "uid" : "6942df59f96141e5",
+  "name" : "Test 3 Verify Search Course Functionlaity ",
+  "fullName" : "Verify overView Menu.Test 3 Verify Search Course Functionlaity ",
+  "historyId" : "96b9094edc385718a763ba8c9bad7f6f",
+  "time" : {
+    "start" : 1638369717169,
+    "stop" : 1638369761149,
+    "duration" : 43980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Failed\n                    at Context.<anonymous> (D:\\Vaionex\\Vaionex-satolearn\\test\\overViewMenu\\/overViewMenuTest.js:121:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verify overView Menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify overView Menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 3 Verify Search Course Functionlaity "
+  }, {
+    "name" : "package",
+    "value" : "Verify overView Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5eb4b641c26e0031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638367968495,
+        "stop" : 1638367989707,
+        "duration" : 21212
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6942df59f96141e5.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

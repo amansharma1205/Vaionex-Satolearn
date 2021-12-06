@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Failed",
+      "children" : [ {
+        "name" : "Test 3 Verify Search Course Functionlaity ",
+        "uid" : "6942df59f96141e5",
+        "parentUid" : "03f9e54d3a14066992f2afe8a46e8ede",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638369717169,
+          "stop" : 1638369761149,
+          "duration" : 43980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.45" ]
+      } ],
+      "uid" : "03f9e54d3a14066992f2afe8a46e8ede"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -1,10 +1,110 @@
 [ {
-  "uid" : "10f4a672e48cf69e",
+  "uid" : "6942df59f96141e5",
+  "name" : "Test 3 Verify Search Course Functionlaity ",
+  "time" : {
+    "start" : 1638369717169,
+    "stop" : 1638369761149,
+    "duration" : 43980
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c878c9981578de4",
+  "name" : "Test 1 Verify user is able to Crete New Course",
+  "time" : {
+    "start" : 1638369594704,
+    "stop" : 1638369644867,
+    "duration" : 50163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e84401d30c5eb84e",
   "name" : "Test 1:- Verify User register with valid data",
   "time" : {
-    "start" : 1635315901419,
-    "stop" : 1635315910578,
-    "duration" : 9159
+    "start" : 1638369808545,
+    "stop" : 1638369826899,
+    "duration" : 18354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a18c1c64860ce43",
+  "name" : "Test 4 :- Verify guidelines screen",
+  "time" : {
+    "start" : 1638369892593,
+    "stop" : 1638369902072,
+    "duration" : 9479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85d1477c5d889c24",
+  "name" : "Test1: Verify HomePage Links",
+  "time" : {
+    "start" : 1638369657307,
+    "stop" : 1638369674006,
+    "duration" : 16699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdccdd514a16c195",
+  "name" : "Test 3 :- Verify Creator Space Screen",
+  "time" : {
+    "start" : 1638369878170,
+    "stop" : 1638369892592,
+    "duration" : 14422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fd6d12e457a3c48",
+  "name" : "Test 1:- Verify Quick Panle Screen",
+  "time" : {
+    "start" : 1638369771487,
+    "stop" : 1638369795602,
+    "duration" : 24115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab2c3ed8853356ec",
+  "name" : "Test 5:- Verify terms and condtition page",
+  "time" : {
+    "start" : 1638369902073,
+    "stop" : 1638369905111,
+    "duration" : 3038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95a9714058ce72de",
+  "name" : "Test 1:- Verify user Profile Screen",
+  "time" : {
+    "start" : 1638369837463,
+    "stop" : 1638369861646,
+    "duration" : 24183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5efb31fc3f2ba948",
+  "name" : "Test4: Verify required field error message",
+  "time" : {
+    "start" : 1638369687485,
+    "stop" : 1638369705622,
+    "duration" : 18137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f3da0c399daee62",
+  "name" : "Test 2 Verify My Profile screen",
+  "time" : {
+    "start" : 1638369861647,
+    "stop" : 1638369878169,
+    "duration" : 16522
   },
   "status" : "passed",
   "severity" : "normal"

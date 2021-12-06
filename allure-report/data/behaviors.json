@@ -2,17 +2,147 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Test 1:- Verify User register with valid data",
-    "uid" : "10f4a672e48cf69e",
+    "name" : "Test 1 Verify user is able to Crete New Course",
+    "uid" : "c878c9981578de4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1635315901419,
-      "stop" : 1635315910578,
-      "duration" : 9159
+      "start" : 1638369594704,
+      "stop" : 1638369644867,
+      "duration" : 50163
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-95.0.4638.54" ]
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test1: Verify HomePage Links",
+    "uid" : "85d1477c5d889c24",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369657307,
+      "stop" : 1638369674006,
+      "duration" : 16699
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test4: Verify required field error message",
+    "uid" : "5efb31fc3f2ba948",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369687485,
+      "stop" : 1638369705622,
+      "duration" : 18137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 3 Verify Search Course Functionlaity ",
+    "uid" : "6942df59f96141e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1638369717169,
+      "stop" : 1638369761149,
+      "duration" : 43980
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 1:- Verify Quick Panle Screen",
+    "uid" : "5fd6d12e457a3c48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369771487,
+      "stop" : 1638369795602,
+      "duration" : 24115
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 1:- Verify User register with valid data",
+    "uid" : "e84401d30c5eb84e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369808545,
+      "stop" : 1638369826899,
+      "duration" : 18354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 1:- Verify user Profile Screen",
+    "uid" : "95a9714058ce72de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369837463,
+      "stop" : 1638369861646,
+      "duration" : 24183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 2 Verify My Profile screen",
+    "uid" : "3f3da0c399daee62",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369861647,
+      "stop" : 1638369878169,
+      "duration" : 16522
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 3 :- Verify Creator Space Screen",
+    "uid" : "fdccdd514a16c195",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369878170,
+      "stop" : 1638369892592,
+      "duration" : 14422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 4 :- Verify guidelines screen",
+    "uid" : "7a18c1c64860ce43",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369892593,
+      "stop" : 1638369902072,
+      "duration" : 9479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "Test 5:- Verify terms and condtition page",
+    "uid" : "ab2c3ed8853356ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638369902073,
+      "stop" : 1638369905111,
+      "duration" : 3038
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
   } ]
 }

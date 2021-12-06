@@ -1,0 +1,84 @@
+{
+  "uid" : "ab2c3ed8853356ec",
+  "name" : "Test 5:- Verify terms and condtition page",
+  "fullName" : "Verify User Profile screen test cases .Test 5:- Verify terms and condtition page",
+  "historyId" : "fbf5b3dd19d0d6cc7dd8d4dc7e134a7c",
+  "time" : {
+    "start" : 1638369902073,
+    "stop" : 1638369905111,
+    "duration" : 3038
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 5:- Verify terms and condtition page"
+  }, {
+    "name" : "package",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fed5eee5b7d7642e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638368885894,
+        "stop" : 1638368900571,
+        "duration" : 14677
+      }
+    }, {
+      "uid" : "2193e20f9514c713",
+      "status" : "broken",
+      "statusDetails" : "Failed",
+      "time" : {
+        "start" : 1638368591113,
+        "stop" : 1638368610917,
+        "duration" : 19804
+      }
+    }, {
+      "uid" : "aef8b3dfcc19df11",
+      "status" : "broken",
+      "statusDetails" : "Failed",
+      "time" : {
+        "start" : 1638368066245,
+        "stop" : 1638368078353,
+        "duration" : 12108
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab2c3ed8853356ec.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

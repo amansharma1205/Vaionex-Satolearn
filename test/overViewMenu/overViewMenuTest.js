@@ -98,4 +98,27 @@ describe("Verify overView Menu" ,()=>{
             assert.fail();
         }
     })
+
+    it.only('Test 3 Verify Search Course Functionlaity ',async()=>{
+
+        try {
+                 
+            await overView_Page.walletworkshopGetStartedBTN.waitForExist();
+            await overView_Page.walletworkshopGetStartedBTN.scrollIntoView();
+            await expect(await overView_Page.walletworkshopGetStartedBTN).toHaveText("GET STARTED!")
+            await overView_Page.walletworkshopGetStartedBTN.click();
+            await overView_Page.walletworkshopSideMenuTutors.waitForDisplayed();
+            await overView_Page.walletworkshopSideMenuTutors.click();
+            await overView_Page.TutorTile.waitForDisplayed();
+            await expect(await overView_Page.TutorTile).toHaveText('Tutors');
+            await overView_Page.Tutorfilter.waitForDisplayed();
+            await overView_Page.VerifySearchCourseTest();
+            
+
+
+        } catch (error) {
+            console.log("Exception: " + error);
+            assert.fail();
+        }
+    })
 })

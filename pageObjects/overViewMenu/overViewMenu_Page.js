@@ -1,4 +1,5 @@
 var assert = require('assert');
+import helpers from '../../resources/helpers';
 class overViewMenu_Page {
     
     get walletworkshopGetStartedBTN() { return $("//div/a/button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined']");}
@@ -28,6 +29,15 @@ class overViewMenu_Page {
     get TutorTile() { return $("//div[@id='kt_content']//h1[.=' Tutors ']");}
     get Tutorfilter() { return $("//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-md-12 MuiGrid-grid-lg-3']");}
     get TutorConnectBTN() { return $("//div/div[@class='jss253'][1]/div[@class='jss247 jss252']");}
+    get TutorSearchTextBox() { return $("//input[@type='text' and @placeholder='Search']");}
+    get TutorSearchBTN() { return $("//button[@aria-label='search']");}
+    get TutorSearchResult() { return $("//div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]");}
+    get TutorSearchSlider() { return $("div:nth-of-type(2) > .jss65 > .MuiSlider-colorSecondary.MuiSlider-root > span:nth-of-type(3)");}
+    get TutorApplyFilterBTN() { return $("//button//span[text()='Apply Filter']");}
+    
+    
+    
+    
      
      
 
@@ -57,6 +67,22 @@ class overViewMenu_Page {
        }
         
 
+    }
+
+    async VerifySearchCourseTest (){
+        await this.TutorSearchResult.waitForDisplayed();
+        await this.TutorSearchTextBox.setValue("coder");
+        await this.TutorSearchBTN.click();
+      
+       await this.TutorSearchResult.waitForDisplayed();
+       await  expect(this.TutorSearchResult).toHaveTextContaining("testing12");
+       await this.TutorSearchTextBox.click();
+       await helpers.KeyPress("\uE003",10);
+       await this.TutorSearchSlider.dragAndDrop({ x: 100, y: 200 });
+       await this.TutorApplyFilterBTN.click();
+       await browser.pause(5000);
+       await expect(this.TutorSearchResult).toHaveTextContaining("test")
+      
     }
    
 

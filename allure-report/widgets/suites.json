@@ -1,6 +1,72 @@
 {
-  "total" : 1,
+  "total" : 7,
   "items" : [ {
+    "uid" : "5ed985f3e0cde308828938ed0d709a95",
+    "name" : "Verify overView Menu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f611c2a1df7b29004849690645f38bbf",
+    "name" : "Verify User Profile screen test cases ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "c8a50a82a5359a59bd3b92d41c24151b",
+    "name" : "Verify Create New Course test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c46e2adc22be3f7d0078bd09235aa72b",
+    "name" : "Verify Home Page Links and Menu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8b65158268e2099d4be3b349c249a4e3",
+    "name" : "Test Sign form with valid and invalid data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "30d8a78930eee0f008c3c5f0f7102f72",
+    "name" : "Quick Panle Test cases ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "172475fb8fe2f496857042c464919cc2",
     "name" : "Verify user register sucessfully",
     "statistic" : {

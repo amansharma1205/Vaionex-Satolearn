@@ -1,0 +1,56 @@
+{
+  "uid" : "bba49f1ef41dc8a9",
+  "name" : "Test 1:- Verify Quick Panle Screen",
+  "fullName" : "Quick Panle Test cases .Test 1:- Verify Quick Panle Screen",
+  "historyId" : "4ed8daa525c68dfd1c7e9264301356a4",
+  "time" : {
+    "start" : 1638368003149,
+    "stop" : 1638368014512,
+    "duration" : 11363
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Quick Panle Test cases "
+  }, {
+    "name" : "testClass",
+    "value" : "Quick Panle Test cases "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 1:- Verify Quick Panle Screen"
+  }, {
+    "name" : "package",
+    "value" : "Quick Panle Test cases "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bba49f1ef41dc8a9.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

@@ -1,18 +1,16 @@
 {
-  "uid" : "89f0aba3a0480212",
+  "uid" : "e84401d30c5eb84e",
   "name" : "Test 1:- Verify User register with valid data",
   "fullName" : "Verify user register sucessfully.Test 1:- Verify User register with valid data",
-  "historyId" : "b61bc5b0dd27316e3b48728bd638bb3c",
+  "historyId" : "5d0071c53af56da3dbed3e6d6c5be76a",
   "time" : {
-    "start" : 1635315511959,
-    "stop" : 1635315531843,
-    "duration" : 19884
+    "start" : 1638369808545,
+    "stop" : 1638369826899,
+    "duration" : 18354
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "Failed",
-  "statusTrace" : "AssertionError [ERR_ASSERTION]: Failed\n                    at Context.<anonymous> (D:\\Vaionex\\Vaionex-satolearn\\test\\register\\/registerUserTest.js:27:16)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -25,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-5"
   }, {
     "name" : "suite",
     "value" : "Verify user register sucessfully"
@@ -44,15 +42,25 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-95.0.4638.54"
+    "value" : "chrome-96.0.4664.45"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e080a6e26b14bfab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638368023666,
+        "stop" : 1638368030052,
+        "duration" : 6386
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "89f0aba3a0480212.json",
-  "parameterValues" : [ "chrome-95.0.4638.54" ]
+  "source" : "e84401d30c5eb84e.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
 }

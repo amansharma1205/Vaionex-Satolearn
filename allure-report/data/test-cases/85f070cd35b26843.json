@@ -1,0 +1,56 @@
+{
+  "uid" : "85f070cd35b26843",
+  "name" : "Test 2 Verify My Profile screen",
+  "fullName" : "Verify User Profile screen test cases .Test 2 Verify My Profile screen",
+  "historyId" : "fb5f0b88be04ba4d73dde19f094341ef",
+  "time" : {
+    "start" : 1638368050529,
+    "stop" : 1638368056870,
+    "duration" : 6341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 2 Verify My Profile screen"
+  }, {
+    "name" : "package",
+    "value" : "Verify User Profile screen test cases "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85f070cd35b26843.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
